@@ -26,13 +26,14 @@ h2 {
 }
 
 .map {
-  background-image: url("../images/empty-frame.png");
-  margin-left: 0;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 100%;
-  border: 20px solid #333;
-  border-radius: 20px;
+	position: relative;
+	top: -603px;
+	left: 92px;
+  width: 619px;
+	float: left;
+}
+
+.map-note {
 }
 
 .superwide {
@@ -40,6 +41,7 @@ h2 {
   left: 0;
   margin: 0;
   width: 100%;
+	display: inline;
 }
 
 .superwide .navy {
