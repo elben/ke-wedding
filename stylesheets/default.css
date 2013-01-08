@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-#structure {
+.structure {
 	height: auto;
   max-width: 700px;
   margin: 100px auto;
@@ -70,9 +70,10 @@ h2 {
   margin-left: -50px;
 }
 
-@media all and (max-device-width: 800px) {
-	#structure {
+@media all and (max-width: 800px) {
+	.structure {
 		margin: 10px auto;
+		width: 100%;
 	}
 
 	.photo-gallery {
