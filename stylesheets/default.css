@@ -25,15 +25,24 @@ h2 {
   margin-top: 60px;
 }
 
-.map {
+.map-frame {
 	position: relative;
-	top: -603px;
-	left: 92px;
-  width: 619px;
-	float: left;
+  background-image: url("../images/empty-frame-medium.png");
+	width: 800px;
+	height: 690px;
+	margin: 20px 0 0 -50px;
+}
+
+
+.map {
+	position: absolute;
+	top: 97px;
+	left: 94px;
+	width: 617px;
 }
 
 .map-note {
+	margin: 40px 0 0;
 }
 
 .superwide {
