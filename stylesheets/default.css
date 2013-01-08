@@ -70,6 +70,32 @@ h2 {
   margin-left: -50px;
 }
 
+@media all and (max-width: 800px) {
+	.photo-gallery {
+		margin-left: 0;
+	}
+	.photo-gallery .photo img {
+		width: 100%;
+	}
+
+	/* Remove vintage frame from map */
+
+	.map-frame {
+		width: 100%;
+		height: 504px;
+		background: none;
+		margin: 0;
+	}
+
+	.map {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+}
+
+
 .clearfix {
   clear: both;
 }
