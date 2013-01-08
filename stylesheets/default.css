@@ -1,6 +1,8 @@
 body {
-	color: #111;
-	background: #fff;
+  color: #111;
+  background: #fff;
+  background-image: url("../images/background-noise-2.png");
+  background-repeat: repeat;
   font-family: 'Lustria', georgia, serif;
   font-size: 15pt;
   line-height: 1.5em;
