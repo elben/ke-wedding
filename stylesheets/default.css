@@ -1,0 +1,57 @@
+body {
+	color: #111;
+	background: #fff;
+  font-family: 'Lustria', georgia, serif;
+  font-size: 15pt;
+  line-height: 1.5em;
+}
+ 
+#header h1 {
+  font-family: 'Stalemate', cursive, serif;
+  font-size: 82px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#structure {
+	height: auto;
+  max-width: 700px;
+  margin: 100px auto;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+.map {
+  background-image: url("../images/empty-frame.png");
+  margin-left: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  border: 20px solid #333;
+  border-radius: 20px;
+}
+
+.superwide {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.superwide .navy {
+  background-color: #3C3B4C;
+}
+
+.superwide .coral {
+  background-color: #F34B4B;
+}
+
+.photo-gallery {
+  margin-left: -50px;
+}
+
+.clearfix {
+  clear: both;
+}
