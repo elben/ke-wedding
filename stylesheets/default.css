@@ -70,7 +70,7 @@ h2 {
   margin-left: -50px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-device-width: 800px) {
 	.photo-gallery {
 		margin-left: 0;
 	}
