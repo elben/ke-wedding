@@ -71,6 +71,10 @@ h2 {
 }
 
 @media all and (max-device-width: 800px) {
+	#structure {
+		margin: 10px auto;
+	}
+
 	.photo-gallery {
 		margin-left: 0;
 	}
