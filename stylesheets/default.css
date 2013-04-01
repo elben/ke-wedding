@@ -4,8 +4,13 @@ body {
   background-image: url("../images/background-noise-2.png");
   background-repeat: repeat;
   font-family: 'Lustria', georgia, serif;
-  font-size: 15pt;
+  font-size: 20px;
+}
+
+p {
+  font-size: 1em;
   line-height: 1.5em;
+	margin: 0 0 1.5em 0;
 }
  
 #header h1 {
@@ -13,6 +18,7 @@ body {
   font-size: 82px;
   font-weight: normal;
   text-align: center;
+	line-height: 0.3em;
 }
 
 .structure {
@@ -21,8 +27,16 @@ body {
   margin: 100px auto;
 }
 
+sup {
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}
+
 h2 {
-  margin-top: 60px;
+  font-size: 1.777em;
+  line-height: 0.8441193em;
+  margin: 0 0 0.8441193em 0;
 }
 
 .map-frame {
@@ -47,7 +61,7 @@ h2 {
 }
 
 .map-note {
-	margin: 40px 0 0;
+	padding: 40px 0 0;
 }
 
 .superwide {
@@ -68,6 +82,7 @@ h2 {
 
 .photo-gallery {
   margin-left: -50px;
+	margin-bottom: 60px;
 }
 
 @media all and (max-width: 800px) {
